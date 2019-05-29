@@ -50,7 +50,7 @@ def shopping_list_post():
           try:
             for item in request.form['text'].split():
               
-              shop_list.append(item\n)
+              shop_list.append(item)
 		
 
 
